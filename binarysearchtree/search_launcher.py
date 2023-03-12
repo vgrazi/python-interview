@@ -7,7 +7,7 @@ def find_node(param):
 
 if __name__ == "__main__":
     factory = BinarySearchTreeFactory()
-    root = factory.make(("quick", "brown", "fox", "jumps", "over", "the", "lazy", "dogs", "back"))
+    root = factory.build(("quick", "brown", "fox", "jumps", "over", "the", "lazy", "dogs", "back"))
     node = find_node("brown")
     print(node)
 #                    quick

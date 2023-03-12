@@ -17,7 +17,7 @@ def add_node(parent, node):
 
 class BinarySearchTreeFactory :
 
-    def make(self, data):
+    def build(self, data):
         root = None
         for label in data:
             node = Node(label, None, None)
