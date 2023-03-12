@@ -3,7 +3,7 @@ import datetime
 from personbirthday.person import Person
 
 def get_age_or_younger(personList, ageInYears):
-    sublist = [person for person in personList if person.get_age() <= ageInYears]
+    sublist = []
     return sublist
 
 if __name__ == "__main__":

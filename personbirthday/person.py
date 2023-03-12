@@ -13,4 +13,4 @@ class Person:
         return  str(self.__id) + " " + self.__name + " " + str(self.__birthday)
 
     def get_age(self):
-        return relativedelta(datetime.date.today(), self.__birthday).years
+        return 0
