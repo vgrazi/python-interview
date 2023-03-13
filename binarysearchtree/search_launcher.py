@@ -1,7 +1,7 @@
 from binarysearchtreefactory import BinarySearchTreeFactory
 
 
-def find_node(param):
+def find_node(startingNode, label):
     pass
 
 
